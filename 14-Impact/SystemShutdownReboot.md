@@ -14,3 +14,22 @@ Adversaries may shutdown/reboot systems to interrupt access to, or aid in the de
 
 **Windows**
 
+- Shutdown
+  - `shutdown /s`
+
+- Reboot
+  - `shutdown /s`
+
+- Log off
+  - `shutdown /l`
+
+**OSX**
+
+- Shutdown
+  - `sudo shutdown -n now`
+  - `sudo shutdown -P now`
+  - shut down after 10 min `sudo shutdown -r 10`
+
+- Reboot
+  - `sudo reboot`
+  - `sudo shutdown -r now`
