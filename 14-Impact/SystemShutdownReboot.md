@@ -26,10 +26,7 @@ Adversaries may shutdown/reboot systems to interrupt access to, or aid in the de
 **OSX**
 
 - Shutdown
-  - `sudo shutdown -n now`
-  - `sudo shutdown -P now`
-  - shut down after 10 min `sudo shutdown -r 10`
+  - `sudo shutdown -h now`
 
 - Reboot
-  - `sudo reboot`
   - `sudo shutdown -r now`
