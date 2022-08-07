@@ -1,1 +1,18 @@
 
+## Tools
+
+**FREE**
+- Empire
+  - https://howto.thec2matrix.com/c2/empire
+  - https://github.com/BC-SECURITY/Empire
+- Merlin 
+  - https://github.com/Ne0nd0g/merlin
+- Covenant
+  - https://github.com/cobbr/Covenant
+  
+  **PAID**
+- NightHawk
+  - https://www.mdsec.co.uk/nighthawk/
+- CobaltSrike
+  - https://www.cobaltstrike.com/
+    
