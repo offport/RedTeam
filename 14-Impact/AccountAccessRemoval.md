@@ -1,0 +1,17 @@
+Adversaries may interrupt availability of system and network resources by inhibiting access to accounts utilized by legitimate users. Accounts may be deleted, locked, or manipulated (ex: changed credentials) to remove access to accounts.
+
+**Linux**
+- Create a user `sudo useradd <username>`
+- Create a system user `sudo useradd -r username`
+- Create a user with specific User ID `sudo useradd -u 1500 <username>`
+- Create a user with a specific group ID `sudo useradd -g <users> <username>`
+- Remove an account `sudo userdel <username>`
+- Change password of an account `sudo passwd <username>`
+
+- List users `cat /etc/passwd`  `cut -d: -f1 /etc/passwd`
+
+**Windows**
+- Create an account
+- Remove an account
+- Modify an account
+- Change password of an account
