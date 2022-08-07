@@ -1,5 +1,4 @@
 List of loots to collect
-- [ ] /etc/passwd
 - [ ] Mimikats
   - binaries https://github.com/ParrotSec/mimikatz
   - project https://github.com/gentilkiwi/mimikatz
