@@ -13,3 +13,6 @@
   - Cherry Tree https://www.giuspen.net/cherrytree/
   - Obsidian https://obsidian.md/
   - I do not like OneNote
+
+- Useful screenshot tools
+  - Flameshot https://flameshot.org/
