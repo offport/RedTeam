@@ -11,7 +11,7 @@ Adversaries may interrupt availability of system and network resources by inhibi
 - List users `cat /etc/passwd`  `cut -d: -f1 /etc/passwd`
 
 **Windows**
-- Create an account
-- Remove an account
-- Modify an account
-- Change password of an account
+- Create an account `net user /add <username> <password>`
+- Add account to admin group `net localgroup administrators <username> /add`
+- Remove an account `net user <username> /delete`
+- Change password of an account `net user <username> <newpassword>`
