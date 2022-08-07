@@ -1,3 +1,6 @@
+# Command and Control
+
+Command and Control consists of techniques that adversaries may use to communicate with systems under their control within a victim network.
 
 ## Tools
 
