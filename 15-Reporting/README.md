@@ -3,6 +3,7 @@
   
 - Useful templates
   - https://github.com/juliocesarfort/public-pentesting-reports
+  - https://www.offensive-security.com/reports/sample-penetration-testing-report.pdf
 
 - Useful projects
   - https://github.com/noraj/OSCP-Exam-Report-Template-Markdown
