@@ -10,3 +10,6 @@ List of loots to collect
 - [ ] Nightmare Hive
   - Exploit allowing you to read any registry hives as non-admin.
   - https://github.com/GossiTheDog/HiveNightmare/tree/master/Release
+  
+ - [ ] Windows WiFi Password Extractor
+  - https://github.com/hmaverickadams/Windows-WiFi-Extractor
