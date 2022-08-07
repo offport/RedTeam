@@ -12,5 +12,3 @@ Adversaries may stop or disable services on a system to render those services un
 - To stop a service, type: `net stop ServiceName`
 - To pause a service, type: `net pause ServiceName`
 - To resume a service, type: `net continue ServiceName`
-
-**OSX**
