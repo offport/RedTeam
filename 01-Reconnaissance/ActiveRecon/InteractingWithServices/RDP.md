@@ -8,6 +8,7 @@
     rdesktop -d <domain> -u <username> -p <password> <IP>
     xfreerdp /u:[domain\]<username> /p:<password> /v:<IP>
     xfreerdp /u:[domain\]<username> /pth:<hash> /v:<IP>
+    rdesktop -u Administrator -p 'P@$$W0rd' -d controller.local 10.10.191.87
 
 ### Brute Force Attack
   

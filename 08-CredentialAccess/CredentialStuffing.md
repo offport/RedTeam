@@ -16,3 +16,15 @@ MSSQL (1433/TCP)
 Oracle (1521/TCP)
 MySQL (3306/TCP)
 VNC (5900/TCP)
+
+
+### Default Credentials
+
+531 vendors, 2116 passwords
+https://cirt.net/passwords
+
+### Password Dumps
+
+	https://github.com/hmaverickadams/breach-parse
+	
+	https://haveibeenpwned.com/

