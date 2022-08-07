@@ -9,3 +9,6 @@ The goal is to have a practical structured methodology which red teamers can use
 - Tools
 - Cheatsheets (all tested or/and previously used)
 - References to tools
+
+## Similar projects
+- https://github.com/infosecn1nja/Red-Teaming-Toolkit
