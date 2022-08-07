@@ -10,7 +10,7 @@
 - Covenant
   - https://github.com/cobbr/Covenant
   
-  **PAID**
+**PAID**
 - NightHawk
   - https://www.mdsec.co.uk/nighthawk/
 - CobaltSrike
