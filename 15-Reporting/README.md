@@ -12,7 +12,7 @@
 - Useful note taking tools
   - Cherry Tree https://www.giuspen.net/cherrytree/
   - Obsidian https://obsidian.md/
-  - I do not like OneNote
+  - OneNote. Do not use it. LOL.
 
 - Useful screenshot tools
   - Flameshot https://flameshot.org/
