@@ -21,6 +21,6 @@ A company may have both internal and external **DNS** servers that can yield inf
 
 - Common subdomain wordlists https://github.com/danielmiessler/SecLists/tree/master/Discovery/DNS
 
-**Sublis3r**
+**- Sublis3r**
 
 - Tool for finding subdomains https://github.com/aboul3la/Sublist3r

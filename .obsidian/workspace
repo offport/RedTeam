@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md",
+            "file": "08-CredentialAccess/PasswordCracking.md",
             "mode": "source",
             "source": true
           }
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md",
+                "file": "08-CredentialAccess/PasswordCracking.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -94,7 +94,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md",
+                "file": "08-CredentialAccess/PasswordCracking.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -117,7 +117,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md"
+                "file": "08-CredentialAccess/PasswordCracking.md"
               }
             }
           }
@@ -130,15 +130,15 @@
   },
   "active": "61f1a02c716c43a4",
   "lastOpenFiles": [
+    "08-CredentialAccess/README.md",
+    "01-Reconnaissance/PassiveRecon/OSINT-CheatSheet.md",
+    "01-Reconnaissance/ActiveRecon/README.md",
+    "09-Discovery/NetworkDiscoveryOneliners.md",
+    "01-Reconnaissance/ActiveRecon/Nmap-Basics.md",
+    "01-Reconnaissance/ActiveRecon/Nmap-Advanced.md",
     "01-Reconnaissance/ActiveRecon/InteractingWithServices/FTP.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/NFS.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/RDP.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/README.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SMB.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SMTP.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SQL.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SSH.md",
-    "01-Reconnaissance/ActiveRecon/InteractingWithServices/TELNET.md",
+    "01-Reconnaissance/ActiveRecon/VulnerabilityScanning.md",
+    "01-Reconnaissance/ActiveRecon/BannerGrabbing.md",
     "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md"
   ]
 }
