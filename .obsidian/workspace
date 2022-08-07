@@ -1,0 +1,144 @@
+{
+  "main": {
+    "id": "7f00bf6468b50cc2",
+    "type": "split",
+    "children": [
+      {
+        "id": "61f1a02c716c43a4",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md",
+            "mode": "source",
+            "source": true
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a3a9d96e494209f7",
+    "type": "split",
+    "children": [
+      {
+        "id": "9c9b5965625d151a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5a3138bf96659d5c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e862c483f3ec90d3",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "117d2b6bad8dfb7e",
+            "type": "leaf",
+            "state": {
+              "type": "starred",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "97307cf4f175bde3",
+    "type": "split",
+    "children": [
+      {
+        "id": "40ff124f1ebf64ad",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "51d37fb1b0f49b5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "bd219e2fab9fa4a3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "56701bf897d0014b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "a2c7c5664eabc56a",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "61f1a02c716c43a4",
+  "lastOpenFiles": [
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/FTP.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/NFS.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/RDP.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/README.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SMB.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SMTP.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SQL.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/SSH.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/TELNET.md",
+    "01-Reconnaissance/ActiveRecon/InteractingWithServices/DNS.md"
+  ]
+}
