@@ -2,14 +2,14 @@ Adversaries may shutdown/reboot systems to interrupt access to, or aid in the de
 
 **Linux**
 
-Shutdown
-`sudo shutdown -n now`
-`sudo shutdown -P now`
-shut down after 10 min `sudo shutdown -r 10`
+- Shutdown
+  - `sudo shutdown -n now`
+  - `sudo shutdown -P now`
+  - shut down after 10 min `sudo shutdown -r 10`
 
-Reboot
-`sudo reboot`
-`sudo shutdown -r now`
+- Reboot
+  - `sudo reboot`
+  - `sudo shutdown -r now`
 
 
 **Windows**
