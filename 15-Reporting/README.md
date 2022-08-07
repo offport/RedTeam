@@ -7,3 +7,8 @@
 - Useful projects
   - https://github.com/noraj/OSCP-Exam-Report-Template-Markdown
   - https://github.com/Wandmalfarbe/pandoc-latex-template#installation
+
+- Useful note taking tools
+  - Cherry Tree https://www.giuspen.net/cherrytree/
+  - Obsidian https://obsidian.md/
+  - I do not like OneNote
