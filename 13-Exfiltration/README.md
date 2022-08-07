@@ -1,4 +1,4 @@
 
-- Exfilrate data
+- Exfiltrate data
   - File transfer cheatsheet
   - PythonServers
