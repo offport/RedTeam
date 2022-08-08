@@ -10,5 +10,7 @@ The goal is to have a practical structured methodology which red teamers can use
 - Cheatsheets (all tested or/and previously used)
 - References to tools
 
+- [01-Reconnaissance](01-Reconnaissance/)
+
 ## Similar projects
 - https://github.com/infosecn1nja/Red-Teaming-Toolkit
