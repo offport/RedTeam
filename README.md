@@ -10,6 +10,8 @@ The goal is to have a practical structured methodology which red teamers can use
 - Cheatsheets (all tested or/and previously used)
 - References to tools
 
+## Red Team Tactics
+
 - [01-Reconnaissance](01-Reconnaissance/)
 - [02-ResourceDevelopment](02-ResourceDevelopment/)
 - [03-InitialAccess](03-InitialAccess/)
@@ -26,6 +28,7 @@ The goal is to have a practical structured methodology which red teamers can use
 - [14-Impact](14-Impact/)
 - [15-Reporting](15-Reporting/)
 
+---
 
 ## Similar projects
 - https://github.com/infosecn1nja/Red-Teaming-Toolkit
