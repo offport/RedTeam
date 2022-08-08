@@ -1,3 +1,7 @@
+# Reporting
+
+An adversary most likely will not write a report but we will.
+
 - My reporting project 
   - https://github.com/offport/SemiAutoReporter
   
