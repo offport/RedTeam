@@ -1,3 +1,7 @@
+# Credential Access
+
+The adversary is trying to steal account names and passwords.
+
 ### Dumping Hashes
 
 List of loots to collect
