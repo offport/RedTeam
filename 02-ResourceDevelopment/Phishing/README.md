@@ -1,1 +1,3 @@
+- GoPhish https://getgophish.com/
+- Guide to spear phishing https://blog.inspired-sec.com/archive/2017/05/07/Phishing.html
 - Guide to setup a mail server https://blog.inspired-sec.com/archive/2017/02/14/Mail-Server-Setup.html
