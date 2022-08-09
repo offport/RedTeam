@@ -5,3 +5,6 @@ One of the most famous persistence techniques is creating a scheduled task that 
 The following line can create a scheduled task that will execute every minute. After that, a shell under the C:\tmp\shell.cmd path is executed.
 
 `schtasks /create /sc minute /mo 1 /tn "persistenttask" /tr C:\tmp\shell.cmd /ru "SYSTEM"`
+
+
+-  Note: consider running reverse-ssh as a scheduled task.
