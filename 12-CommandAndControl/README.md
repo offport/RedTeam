@@ -21,3 +21,7 @@ Command and Control consists of techniques that adversaries may use to communica
 - CobaltSrike
   - https://www.cobaltstrike.com/
     
+**Redirectors**
+- Dropbox
+- Twitter
+- Teams
