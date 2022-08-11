@@ -25,7 +25,8 @@ An adversary most likely will not write a report but we will.
 
 - Screen recording
   - **Windows** `Windows Key + Alt + R` to start screen recording
+  - **Linux** `Ctrl + Alt + Shift + R`
   - **MAC** 
     - Entire Display `Shift + Command + 3`
     - Part of dislay `Shift + Command + 4`
-    - Open QuickTime -> Tap “File” at the top of the display -> Choose “New Screen recording”
+    - Open QuickTime -> Tap “File” at the top of the display -> Choose "New Screen recording"
