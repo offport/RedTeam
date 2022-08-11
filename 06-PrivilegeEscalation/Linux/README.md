@@ -1,1 +1,6 @@
-
+- Linux Smart Enumeration
+  - https://github.com/diego-treitos/linux-smart-enumeration
+  - Download `wget "https://github.com/diego-treitos/linux-smart-enumeration/releases/latest/download/lse.sh" -O lse.sh`
+  - Download and run `wget "https://github.com/diego-treitos/linux-smart-enumeration/releases/latest/download/lse.sh" -O lse.sh`
+  - `chmod +x lse.sh`
+  - `./lse.sh`
