@@ -32,6 +32,7 @@ The adversary is trying to gather data of interest to their goal.
   - `tree`
   - `du -a`
 - Services
+  - `systemctl list-unit-files --type service -all`
   - `systemctl list-units --type=service` or `systemctl list-units --type=service --state=active`
   - `netstat -ltup`
   - `ss -ltup`
@@ -40,6 +41,8 @@ The adversary is trying to gather data of interest to their goal.
 - Hashes `cat /etc/shadow`
 
 **Windows**
+- Hostname
+  - `hostname`
 - OS info
   - `systeminfo`
 - Patches
@@ -51,12 +54,21 @@ The adversary is trying to gather data of interest to their goal.
   - Admin users `net localgroup Administrators`
 - Processes
 - Installed software
+  - `wmic product get name`
 - Scheduled Tasks
 - File System
+  - `tree C://`
 - Services
+  - Just names `net start`
+  - More detailed `wmic service where (state="running") get caption, name, startmode, state`
+  - 
 - ARP Table
   - `arp -a`
+- AV info
+  - `wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName, productState, pathToSignedProductExe`
 - Hashes
+- Clean logs
+  - `wmic nteventlog where filename='system' call cleareventlog`
 
 ## Archive collected data after collection
 
