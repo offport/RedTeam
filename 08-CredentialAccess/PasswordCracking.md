@@ -52,3 +52,5 @@ in Kali
 	
 		hashcat -m 1800 -a 0 hash.txt /home/kali/Desktop/rockyou.txt
 	
+**Creating a cracking server in the cloud**
+- https://www.sans.org/blog/password-hash-cracking-amazon-web-services/
