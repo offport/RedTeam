@@ -2,7 +2,7 @@
 
 The adversary is trying to gather data of interest to their goal.
 
-## General Loots
+## General Data to Collect After Compromise
 
 **Linux**
 - Hostname
