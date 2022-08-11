@@ -2,7 +2,7 @@
 
 The adversary is trying to gather data of interest to their goal.
 
-## General Data to Collect After Compromise
+## General data to collect after compromise
 
 **Linux**
 - Hostname
