@@ -21,3 +21,11 @@ An adversary most likely will not write a report but we will.
 
 - Useful screenshot tools
   - Flameshot https://flameshot.org/
+  - Greenshot
+
+- Screen recording
+  - **Windows** `Windows Key + Alt + R` to start screen recording
+  - **MAC** 
+    - Entire Display `Shift + Command + 3`
+    - Part of dislay `Shift + Command + 4`
+    - Open QuickTime -> Tap “File” at the top of the display -> Choose “New Screen recording”
