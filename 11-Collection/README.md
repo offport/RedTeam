@@ -35,21 +35,28 @@ The adversary is trying to gather data of interest to their goal.
   - `systemctl list-units --type=service` or `systemctl list-units --type=service --state=active`
   - `netstat -ltup`
   - `ss -ltup`
-- After PrivEsc
-  - Hashes `cat /etc/shadow`
+- ARP Table
+  - `arp -a`
+- Hashes `cat /etc/shadow`
 
 **Windows**
 - OS info
   - `systeminfo`
+- Patches
+  - `wmic qfe list`
 - Network
+  - `ipconfig`
 - Users and Groups
+  - `net user`
+  - Admin users `net localgroup Administrators`
 - Processes
 - Installed software
 - Scheduled Tasks
 - File System
 - Services
-- After PrivEsc
-  - Hashes
+- ARP Table
+  - `arp -a`
+- Hashes
 
 ## Archive collected data after collection
 
