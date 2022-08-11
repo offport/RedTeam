@@ -1,0 +1,1 @@
+- Creating a hash cracking server https://www.sans.org/blog/password-hash-cracking-amazon-web-services/
