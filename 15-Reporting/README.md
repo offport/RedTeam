@@ -15,6 +15,7 @@ An adversary most likely will not write a report but we will.
 
 - Useful note taking tools
   - Cherry Tree https://www.giuspen.net/cherrytree/
+    - Cherry Tree CTF template https://github.com/devzspy/oscp-certification/tree/master/Note%20Taking%20Tools/CherryTree%20Template
   - Obsidian https://obsidian.md/
   - OneNote. Do not use it. LOL.
 
