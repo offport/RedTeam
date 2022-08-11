@@ -1,1 +1,1 @@
-## How to interact with different services
+- Useful resource https://github.com/jwardsmith/OSCP-Methodology/blob/master/README.md
