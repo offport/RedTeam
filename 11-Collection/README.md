@@ -61,12 +61,14 @@ The adversary is trying to gather data of interest to their goal.
 - Services
   - Just names `net start`
   - More detailed `wmic service where (state="running") get caption, name, startmode, state`
-  - 
+  - With ports
 - ARP Table
   - `arp -a`
 - AV info
   - `wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName, productState, pathToSignedProductExe`
 - Hashes
+  - Mimikatz
+  - Check [Add Link](TODO)
 - Clean logs
   - `wmic nteventlog where filename='system' call cleareventlog`
 
