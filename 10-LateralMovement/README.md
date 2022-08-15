@@ -21,7 +21,7 @@ When talking about local group membership, we will be mostly interested in being
 - Remote Management Users
 - Distributed COM Users
 
-**To check if user is part of Administrators group**
+#### To check if user is part of Administrators group
 
 The easiest way of determine whether we have local admin access (and therefore we’re part of the local Administrators group) to a remote machine is to attempt to list the content of the C: drive using the following command:
 
@@ -35,11 +35,11 @@ For multiple machines
 
 PowerView’s cmdlet Find-LocalAdminAccess that will simply output the machines where the current user have admin privileges.
 
-**To check if user is part of Remote Management Users**
+#### To check if user is part of Remote Management Users
 
 `Invoke-Command -Computername <ip or hostname> -ScriptBlock {whoami}`
 
-**To check if user is part of Remote Desktop Users**
+#### To check if user is part of Remote Desktop Users
 
 Attempt to RDP. Simple!
 
