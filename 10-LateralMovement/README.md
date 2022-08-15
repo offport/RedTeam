@@ -43,6 +43,35 @@ PowerView’s cmdlet Find-LocalAdminAccess that will simply output the machines 
 
 Attempt to RDP. Simple!
 
+#### Check user's local groups
 
+`whoami /groups`
+
+### Access to File Shares
+
+### Access Control Lists
+
+### MSSQL Access
+
+### WMI
+
+### Remote Service Creation
+
+### Remote Desktop Protocol
+
+### PowerShell Remoting
+
+### Password Spray
+
+### RDP Session Hijack
+
+### Pass The Hash
+#### MIMIKATZ
+#### Impacket
+#### XFreeRDP
+#### CrackMapExec 
+reference the cheatsheet
+
+### Pass-the-Ticket
 
 **Windows Lateral Movement** https://riccardoancarani.github.io/2019-10-04-lateral-movement-megaprimer/
