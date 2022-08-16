@@ -67,4 +67,6 @@ portfwd delete –l $LOCAL_PORT –p $REMOTE_PORT –r $REMOTE_ADDRESS
 portfwd flush
 ```
 
-https://linuxize.com/post/how-to-setup-ssh-tunneling/#:~:text=Local%20Port%20Forwarding.,to%20the%20destination%20host%20port.
+## Refernces
+- https://www.devkb.org/linux/115-TCP-tunnel-port-forwarding-using-Netcat
+- https://linuxize.com/post/how-to-setup-ssh-tunneling/#:~:text=Local%20Port%20Forwarding.,to%20the%20destination%20host%20port.
