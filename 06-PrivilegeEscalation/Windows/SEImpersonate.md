@@ -1,6 +1,7 @@
 PrintSpoofer 
   - project https://github.com/itm4n/PrintSpoofer
   - Binary https://github.com/dievus/printspoofer/blob/master/PrintSpoofer.exe
+  - `PrintSpoofer.exe -i -c cmd.exe`
 
 Juicey Potato 
   - project https://github.com/ohpe/juicy-potato
