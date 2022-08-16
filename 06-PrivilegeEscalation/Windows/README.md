@@ -57,4 +57,5 @@
     # Search for password in registry
     reg query HKLM /f password /t REG_SZ /s
     reg query HKCU /f password /t REG_SZ /s
-  ```
+
+    ```
