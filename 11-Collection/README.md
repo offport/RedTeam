@@ -58,6 +58,7 @@ The adversary is trying to gather data of interest to their goal.
 - Installed software
   - `wmic product get name`
 - Scheduled Tasks
+  - Long output. It is recommended to save it to a text file.
   - `schtasks /query /fo LIST /v`
 - File System
   - `tree C://`
