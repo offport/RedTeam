@@ -59,3 +59,6 @@
     reg query HKCU /f password /t REG_SZ /s
 
     ```
+    
+- Enumerate Local Services
+  - `netstat -ano`
