@@ -69,6 +69,11 @@ portfwd delete –l $LOCAL_PORT –p $REMOTE_PORT –r $REMOTE_ADDRESS
 portfwd flush
 ```
 
+### Putty GUI
+
+https://phoenixnap.com/kb/ssh-port-forwarding
+
+
 ## Refernces
 
 - https://www.thehacker.recipes/sys/pivoting/port-forwarding
