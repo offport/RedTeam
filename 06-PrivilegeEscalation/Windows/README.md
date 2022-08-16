@@ -20,3 +20,4 @@
    - Run `systeminfo` on the target Windows machine and save the output in a txt file.
    - `python3 windows-exploit-suggester.py --update`
    - `python3 windows-exploit-suggester.py --database 2014-06-06-mssb.xlsx --systeminfo systeminfo.txt`
+   - Grep 'Elevation' `./windows-exploit-suggester.py –database 2015-09-22-mssb.xlsx –systeminfo systeminfo_1.txt | grep 'Elevation'`
