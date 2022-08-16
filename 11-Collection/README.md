@@ -66,6 +66,8 @@ The adversary is trying to gather data of interest to their goal.
   - `arp -a`
 - AV info
   - `wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName, productState, pathToSignedProductExe`
+- Patches
+  - `wmic qfe get Caption,Description,HotFixID,InstalledOn`
 - Hashes
   - Mimikatz
   - Check [Add Link](TODO)
