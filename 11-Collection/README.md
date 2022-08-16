@@ -58,6 +58,7 @@ The adversary is trying to gather data of interest to their goal.
 - Installed software
   - `wmic product get name`
 - Scheduled Tasks
+  - `schtasks /query /fo LIST /v`
 - File System
   - `tree C://`
 - Services
