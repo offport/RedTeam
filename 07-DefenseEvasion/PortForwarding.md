@@ -6,6 +6,10 @@ Local Port Forwarding. - Forwards a connection from the client host to the SSH s
 Remote Port Forwarding. - Forwards a port from the server host to the client host and then to the destination host port.
 Dynamic Port Forwarding. - Creates a SOCKS proxy server that allows communication across a range of ports.
 
+### SSHuttle
+
+  - Project https://github.com/sshuttle/sshuttle
+  - Documentation https://sshtunnel.readthedocs.io/
 
 ### SSH Commands
 
