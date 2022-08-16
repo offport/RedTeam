@@ -11,6 +11,8 @@ The adversary is trying to gather data of interest to their goal.
   - `uname -a`
 - Network
   - `ifconfig -a`
+- Architecture
+  - `wmic os get osarchitecture`
 - Users and Groups
   - `cat /etc/passwd`
   - `cut -d: -f1 /etc/passwd` or `cut -d: -f1 /etc/passwd`
