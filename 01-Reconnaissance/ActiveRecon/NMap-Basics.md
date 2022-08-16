@@ -6,6 +6,7 @@
 	`nmap -sC -sV -p- -A -oA <output-filename> <IP>`
 
 - Nmap fast scan
+
 	`nmap -p- --min-rate 10000 -oA <output-filename> <IP>`
 	
 	

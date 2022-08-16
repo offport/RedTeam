@@ -30,6 +30,15 @@ The goal is to have a practical structured methodology which red teamers can use
 
 ---
 
+## Methodology 1
+
+![](images/red-team-operations-attack-approach.jpg)
+
+## Methodology 2
+
+![](images/method.jpg)
+
+
 ## Similar projects
 - https://github.com/infosecn1nja/Red-Teaming-Toolkit
 - https://github.com/yeyintminthuhtut/Awesome-Red-Teaming

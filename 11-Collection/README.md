@@ -11,6 +11,8 @@ The adversary is trying to gather data of interest to their goal.
   - `uname -a`
 - Network
   - `ifconfig -a`
+- Architecture
+  - `wmic os get osarchitecture`
 - Users and Groups
   - `cat /etc/passwd`
   - `cut -d: -f1 /etc/passwd` or `cut -d: -f1 /etc/passwd`
@@ -56,6 +58,8 @@ The adversary is trying to gather data of interest to their goal.
 - Installed software
   - `wmic product get name`
 - Scheduled Tasks
+  - Long output. It is recommended to save it to a text file.
+  - `schtasks /query /fo LIST /v`
 - File System
   - `tree C://`
 - Services
@@ -66,6 +70,8 @@ The adversary is trying to gather data of interest to their goal.
   - `arp -a`
 - AV info
   - `wmic /namespace:\\root\securitycenter2 path antivirusproduct GET displayName, productState, pathToSignedProductExe`
+- Patches
+  - `wmic qfe get Caption,Description,HotFixID,InstalledOn`
 - Hashes
   - Mimikatz
   - Check [Add Link](TODO)
