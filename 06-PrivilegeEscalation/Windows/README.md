@@ -22,7 +22,9 @@
    - `python3 windows-exploit-suggester.py --database 2014-06-06-mssb.xlsx --systeminfo systeminfo.txt`
    - Grep 'Elevation' `./windows-exploit-suggester.py –database 2015-09-22-mssb.xlsx –systeminfo systeminfo_1.txt | grep 'Elevation'`
 
-- Search for passwords
+- Search for passwords 
+
+  - In Files
 
     ```
       findstr /si password *.txt
@@ -36,3 +38,23 @@
       findstr /spin "password" *.*
       findstr /spin "password" *.*
     ```
+    
+  - In Registry
+  
+    ```
+    # VNC
+    reg query "HKCU\Software\ORL\WinVNC3\Password"
+
+    # Windows autologin
+    reg query "HKLM\SOFTWARE\Microsoft\Windows NT\Currentversion\Winlogon"
+
+    # SNMP Paramters
+    reg query "HKLM\SYSTEM\Current\ControlSet\Services\SNMP"
+
+    # Putty
+    reg query "HKCU\Software\SimonTatham\PuTTY\Sessions"
+
+    # Search for password in registry
+    reg query HKLM /f password /t REG_SZ /s
+    reg query HKCU /f password /t REG_SZ /s
+  ```
