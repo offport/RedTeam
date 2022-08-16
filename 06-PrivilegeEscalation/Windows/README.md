@@ -24,15 +24,15 @@
 
 - Search for passwords
 
-```
-  findstr /si password *.txt
-  findstr /si password *.xml
-  findstr /si password *.ini
+    ```
+      findstr /si password *.txt
+      findstr /si password *.xml
+      findstr /si password *.ini
 
-  #Find all those strings in config files.
-  dir /s *pass* == *cred* == *vnc* == *.config*
+      #Find all those strings in config files.
+      dir /s *pass* == *cred* == *vnc* == *.config*
 
-  # Find all passwords in all files.
-  findstr /spin "password" *.*
-  findstr /spin "password" *.*
-```
+      # Find all passwords in all files.
+      findstr /spin "password" *.*
+      findstr /spin "password" *.*
+    ```
