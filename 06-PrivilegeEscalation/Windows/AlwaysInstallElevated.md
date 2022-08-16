@@ -27,6 +27,8 @@ Write-UserAddMSI
 
 You will get a prompt to enter the username and the password for the new user.
 
+Another way https://infosecwriteups.com/privilege-escalation-in-windows-380bee3a2842
+
 
 ### References
 https://pentestlab.blog/2017/02/28/always-install-elevated/
