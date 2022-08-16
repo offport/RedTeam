@@ -64,6 +64,8 @@
   - `netstat -ano`
   - Look for LISTENING/LISTEN. Compare that to the scan you did from the outside. Does it contain any ports that are not accessible from the outside? If that is the case, maybe you can make a remote forward to access it.
   
+   plink32.exe -ssh -l <MYUSERNAME> -pw <MYPASSWORD> -R <MYIP>:<MYPORT>:127.0.0.1:8090 <MYIP>
+   
     ```
       # Port forward using plink
       plink.exe -l root -pw mysecretpassword 192.168.0.101 -R 8080:127.0.0.1:8080
