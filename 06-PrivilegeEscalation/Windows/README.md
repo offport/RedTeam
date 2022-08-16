@@ -21,3 +21,18 @@
    - `python3 windows-exploit-suggester.py --update`
    - `python3 windows-exploit-suggester.py --database 2014-06-06-mssb.xlsx --systeminfo systeminfo.txt`
    - Grep 'Elevation' `./windows-exploit-suggester.py –database 2015-09-22-mssb.xlsx –systeminfo systeminfo_1.txt | grep 'Elevation'`
+
+- Search for passwords
+
+```
+  findstr /si password *.txt
+  findstr /si password *.xml
+  findstr /si password *.ini
+
+  #Find all those strings in config files.
+  dir /s *pass* == *cred* == *vnc* == *.config*
+
+  # Find all passwords in all files.
+  findstr /spin "password" *.*
+  findstr /spin "password" *.*
+```
