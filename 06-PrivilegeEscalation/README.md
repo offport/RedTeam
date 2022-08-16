@@ -22,3 +22,8 @@ The adversary is trying to gain higher-level permissions.
 - Windows
 
 ![](images/WindowsPrivilegeEscalation.png)
+
+
+## References
+
+- https://raw.githubusercontent.com/C0nd4/OSCP-Priv-Esc/
