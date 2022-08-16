@@ -17,11 +17,11 @@ It requires to have an SSH server running on the controlled machine and a valid 
 
 **Local port forwarding**
 
-`ssh -N -L <port to forward to on the ssh server>:<IP of machine running the service>:<port service is running on> user@<IP of ssh server>`
+`ssh -N -L <port to forward service to>:<IP of machine running the service>:<port service is running on> user@<IP of ssh server>`
 
 **Remote port forwarding**
 
-`ssh -N -R <port to forward to on the ssh server>:<IP of machine running the service>:<port service is running on> user@<IP of ssh server>`
+`ssh -N -R <port to forward service to>:<IP of machine running the service>:<port service is running on> user@<IP of ssh server>`
 
 **Dynamic port forwarding**
 
