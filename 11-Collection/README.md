@@ -71,7 +71,9 @@ The adversary is trying to gather data of interest to their goal.
   - Check [Add Link](TODO)
 - Clean logs
   - `wmic nteventlog where filename='system' call cleareventlog`
-
+- Computer Status
+	- Powershell `Get-MpComputerStatus`
+	
 ## Archive collected data after collection
 
 **ZIP tools**
