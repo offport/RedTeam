@@ -27,8 +27,6 @@ It requires to have an SSH server running on the controlled machine and a valid 
 
 `ssh -D [LOCAL_IP:]LOCAL_PORT [USER@]SSH_SERVER`
 
-### SSH Config
-
 ### Netcat
 
 Syntax 
