@@ -18,7 +18,7 @@ Adversaries may shutdown/reboot systems to interrupt access to, or aid in the de
   - `shutdown /s`
 
 - Reboot
-  - `shutdown /s`
+  - `shutdown /r`
 
 - Log off
   - `shutdown /l`

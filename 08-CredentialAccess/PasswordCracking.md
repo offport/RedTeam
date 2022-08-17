@@ -1,12 +1,14 @@
 ## Cracking Windows Hashes
 
-John
+**John**
 
 
-	john –format=LM –wordlist=/root/usr/share/john/password_john.txt hash.txt
+	john –format=LM –wordlist=/usr/share/wordlists/rockyou.txt hash.txt
 
-example:
-	aad3b435b51404eeaad3b435b51404ee:ffb43f0de35be4d9917ac0cc8ad57f8d
+
+**Hashcat**
+
+	hashcat -m 1000 hash.txt /usr/share/wordlists/rockyou.txt
 	
 	
 	
