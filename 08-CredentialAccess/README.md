@@ -28,12 +28,10 @@ List of loots to collect
   
 - [ ] Pypykatz
   - https://github.com/skelsec/pypykatz
+ 
 - [ ] Nightmare Hive
   - Exploit allowing you to read any registry hives as non-admin.
   - https://github.com/GossiTheDog/HiveNightmare/tree/master/Release
-  
- - [ ] Windows WiFi Password Extractor
-  - https://github.com/hmaverickadams/Windows-WiFi-Extractor
 
 - [ ] PwDump7
   - Only for Windows7
@@ -55,5 +53,11 @@ List of loots to collect
 - [ ] CrackMapExec 
   - `crackmapexec smb 192.168.1.105 -u 'AdministratorUsername' -p 'password1234' --sam`
   
+  
+### WiFi Credentials
+
+   - [ ] Windows WiFi Password Extractor
+     - https://github.com/hmaverickadams/Windows-WiFi-Extractor
+     
 ### References
 - https://www.hackingarticles.in/credential-dumping-sam/
