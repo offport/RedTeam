@@ -10,6 +10,7 @@ Juicey Potato
 
 RogueWinRM 
   - Project https://github.com/antonioCoco/RogueWinRM
+  - Binary in Binaries dir 
 
 Fix
 

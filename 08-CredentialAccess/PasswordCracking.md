@@ -48,11 +48,11 @@ in Kali
 	
 	- Show previously cracked hashes
 
-			john --show hash.txt
+		  john --show hash.txt
 			
 - Hashcat
 	
-		hashcat -m 1800 -a 0 hash.txt /home/kali/Desktop/rockyou.txt
+		hashcat -m 1000 -a 0 hash.txt /home/kali/Desktop/rockyou.txt
 	
 **Creating a cracking server in the cloud**
 - https://www.sans.org/blog/password-hash-cracking-amazon-web-services/

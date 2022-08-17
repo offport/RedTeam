@@ -25,10 +25,25 @@ List of loots to collect
   Once you have retrieved the data from SAM, you can use SamDump2 tool to dump its hashes with the following command
   
   `samdump2 system sam`
-  
-- [ ] Impacket
-  - `./secretsdump.py -sam /root/Desktop/sam -system /root/Desktop/system LOCAL`
-  
+
+**Extract hashes from SAM and SYSTEM**
+- Impacket
+```
+git clone https://github.com/SecureAuthCorp/impacket.git
+cd impacket
+python3 -m pip install .
+cd examples
+```
+  `./secretsdump.py -sam /root/Desktop/sam -system /root/Desktop/system LOCAL`
+
+- creddump7
+	```
+	git clone https://github.com/Tib3rius/creddump7
+	pip3 install pycrypto   
+	python3 creddump7/pwdump.py SYSTEM SAM
+	```
+	
+
 - [ ] Mimikatz
   - binaries https://github.com/ParrotSec/mimikatz
   - project https://github.com/gentilkiwi/mimikatz

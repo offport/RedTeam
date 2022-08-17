@@ -1,8 +1,10 @@
 Inside Powershell
 
-```powershell
-Set-ExecutionPolicy -ExecutionPolicy Bypass
-```
+ Bypassing Execution Policy (not admin priv needed)
+
+		powershell -ExecutionPolicy bypass
+		powershell -c <cmd>
+		powershell -encodedcommand $env:PSExecutionPolicyPreference="bypass"
 
 Bypass AMSI
 
