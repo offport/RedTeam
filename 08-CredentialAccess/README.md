@@ -27,7 +27,8 @@ List of loots to collect
   ```
   
 - [ ] Pypykatz
-  - https://github.com/skelsec/pypykatz
+  - Project https://github.com/skelsec/pypykatz
+  - Demo https://www.youtube.com/watch?v=X4YCJYQ-zVg
  
 - [ ] Nightmare Hive
   - Exploit allowing you to read any registry hives as non-admin.
