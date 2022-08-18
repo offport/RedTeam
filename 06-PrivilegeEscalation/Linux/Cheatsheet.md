@@ -72,6 +72,10 @@ sudo yum localinstall -y root-1.0-1.noarch.rpm
 ```
 ls -l /etc/shadow
 ls -l /etc/passwd
+
+cat /etc/passwd | grep bash #List all usres that has bash access
+cat /etc/group #See which user has higher privilege
+
 ```
 ### Readable /etc/shadow
 The /etc/shadow file contains user password hashes and is usually readable only by the root user.
@@ -265,9 +269,9 @@ Look for "PASSWORD" ignore caps - Long output
 
 **Look for a file with a file name**
 
-Example - Looking for openvpn key files
-
-`find / -name **.ovpn 2> /dev/null`
+`find / -name **.ovpn 2> /dev/null | more`
+`find / -name *password* 2> /dev/null | more`
+`find / -name *cred* 2> /dev/null | more`
 
 ### History Files
 
