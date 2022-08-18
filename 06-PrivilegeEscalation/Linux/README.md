@@ -12,7 +12,7 @@
 
 ### Cheatsheets
 
-- 
+- Great Source https://redtm.com/privilege-escalation/linux-privilege-escalation-cheat-sheet/
 - 
 
 ### Mindmap
