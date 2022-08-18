@@ -7,6 +7,10 @@ List the programs which sudo allows your user to run:
 
 Visit GTFOBins ([https://gtfobins.github.io](https://gtfobins.github.io)) and search for some of the program names. If the program is listed with "sudo" as a function, you can use it to elevate privileges, usually via an escape sequence.
 
+Automatically check of bins are vulnerable
+https://github.com/tjnull/OSCP-Stuff/tree/master/Priv-esc/Linux
+
+
 ### sudo 
 
 `sudo usr/bin/sudo su`
