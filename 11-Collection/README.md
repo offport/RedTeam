@@ -83,6 +83,11 @@ The adversary is trying to gather data of interest to their goal.
   - `wmic nteventlog where filename='system' call cleareventlog`
 - Computer Status
 	- Powershell `Get-MpComputerStatus`
+- Flags
+	- `findstr /si proof.txt *.txt`
+	- `findstr /si root.txt *.txt`
+	- `findstr /si user.txt *.txt`
+	
 	
 ## Archive collected data after collection
 
