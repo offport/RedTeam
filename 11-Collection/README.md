@@ -41,6 +41,10 @@ The adversary is trying to gather data of interest to their goal.
 - ARP Table
   - `arp -a`
 - Hashes `cat /etc/shadow`
+- Flag 
+	- `find / -name root.txt 2> /dev/null`
+	- `find / -name user.txt 2> /dev/null`
+	- `find / -name proof.txt 2> /dev/null`
 
 **Windows**
 - Hostname
