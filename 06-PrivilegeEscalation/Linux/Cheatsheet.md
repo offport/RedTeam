@@ -324,4 +324,9 @@ https://www.exploit-db.com/exploits/40616
 https://www.exploit-db.com/exploits/18411
 Check OSCP Beta
 
+### Dirty Cow
+
+https://github.com/FireFart/dirtycow/blob/master/dirty.c
+
+
 ## Privilege Escalation Scripts
