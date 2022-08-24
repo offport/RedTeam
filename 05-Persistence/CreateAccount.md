@@ -12,7 +12,10 @@ Adversaries may create an account to maintain access to victim systems. With a s
 
 **Windows**
 - Create an account `net user /add <username> <password>`
-- Add account to admin group `net localgroup administrators <username> /add`
+- Add account to local admin group `net localgroup administrators <username> /add`
+- Add user to domain group
+	- `net group groupName userName /ADD /DOMAIN`
+	- `net group "Domain Admins" hacker /ADD /DOMAIN`
 - Remove an account `net user <username> /delete`
 - Change password of an account `net user <username> <newpassword>`
 - Create User
