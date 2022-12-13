@@ -1,3 +1,7 @@
+Nmap Scan
+
+`sudo nmap -sP -n xxx.xxx.xxx`
+
 Check MAC address of the machine you want to spoof
 
 `arping -c 1 192.168.x.x`
