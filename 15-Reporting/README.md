@@ -14,10 +14,11 @@ An adversary most likely will not write a report but we will.
   - https://github.com/Wandmalfarbe/pandoc-latex-template#installation
 
 - Useful note taking tools
+  - Notion. https://www.notion.so/
   - Cherry Tree https://www.giuspen.net/cherrytree/
     - Cherry Tree CTF template https://github.com/devzspy/oscp-certification/tree/master/Note%20Taking%20Tools/CherryTree%20Template
   - Obsidian https://obsidian.md/
-  - OneNote. Do not use it. LOL.
+  - OneNote. 
 
 - Useful screenshot tools
   - Flameshot https://flameshot.org/
